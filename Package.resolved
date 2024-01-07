@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftpackagedescriptiondecodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicorichard/SwiftPackageDescriptionDecodable",
+      "state" : {
+        "revision" : "5afc092dadd076ca3f3ac21f67b0c7033735b8c4",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
