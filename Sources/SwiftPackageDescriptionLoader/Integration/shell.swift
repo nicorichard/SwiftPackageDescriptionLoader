@@ -12,8 +12,7 @@ func shell(_ command: String, currentDirectory: String) throws -> String {
     let pipe = Pipe()
     task.standardOutput = pipe
     try task.run()
-    task.waitUntilExit()
-    
+
     let data = pipe.fileHandleForReading.readDataToEndOfFile()
     guard let output = String(data: data, encoding: .utf8) else {
         throw PackageDescriptionLoaderError.shellOutputFormatInvalid
